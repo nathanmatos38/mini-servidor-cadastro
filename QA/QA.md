@@ -270,14 +270,12 @@ Durante a execução inicial, **8 casos de teste apresentaram FAIL**. Após as c
 
 ### 📸 Evidências dos Bugs Encontrados
 
-| Bug | Casos de Teste Relacionados | Descrição | Evidência |
-|---|---|---|---|
-| **BUG-002** | TC-API-012 | E-mail em formato inválido aceito pela API | [`BUG-002_TC-API-012_email-formato-invalido.png`](./evidencias/BUG-002_TC-API-012_email-formato-invalido.png) |
-| **BUG-003** | TC-API-014 | `fullName` informado como número aceito pela API | [`BUG-003_TC-API-014_fullName-tipo-number.png`](./evidencias/BUG-003_TC-API-014_fullName-tipo-number.png) |
-| **BUG-004** | TC-API-015 | `email` informado como número aceito pela API | [`BUG-004_TC-API-015_email-tipo-number.png`](./evidencias/BUG-004_TC-API-015_email-tipo-number.png) |
-| **BUG-005** | TC-API-016 | `password` informada como número aceita pela API | [`BUG-005_TC-API-016_password-tipo-number.png`](./evidencias/BUG-005_TC-API-016_password-tipo-number.png) |
-| **BUG-006** | TC-API-013, TC-API-017 e TC-API-018 | Validação dos limites mínimo e máximo de caracteres da `password` | [`Evidência — limite mínimo`](./evidencias/BUG-006_TC-API-013_password-abaixo-minimo.png) / [`Evidência — limite máximo`](./evidencias/BUG-006_TC-API-018_password-acima-maximo.png) |
-| **BUG-007** | TC-API-011 | `fullName` contendo somente números aceito pela API | [`BUG-007_TC-API-011_fullName-somente-numerico.png`](./evidencias/BUG-007_TC-API-011_fullName-somente-numerico.png) |
+| **BUG-API-002** | TC-API-012 | E-mail em formato inválido aceito pela API | [`BUG-002_TC-API-012_email-formato-invalido.png`](../evidencias/BUG-002_TC-API-012_email-formato-invalido.png) |
+| **BUG-API-003** | TC-API-014 | `fullName` informado como número aceito pela API | [`BUG-003_TC-API-014_fullName-tipo-number.png`](../evidencias/BUG-003_TC-API-014_fullName-tipo-number.png) |
+| **BUG-API-004** | TC-API-015 | `email` informado como número aceito pela API | [`BUG-004_TC-API-015_email-tipo-number.png`](../evidencias/BUG-004_TC-API-015_email-tipo-number.png) |
+| **BUG-API-005** | TC-API-016 | `password` informado como número aceito pela API | [`BUG-005_TC-API-016_password-tipo-number.png`](../evidencias/BUG-005_TC-API-016_password-tipo-number.png) |
+| **BUG-API-006** | TC-API-013, TC-API-017 e TC-API-018 | Validação dos limites mínimo e máximo de caracteres da password | [`Evidência – limite mínimo`](../evidencias/BUG-006_TC-API-018_password-abaixo-maximo.png) / [`Evidência – limite máximo`](../evidencias/BUG-006_TC-API-018_password-acima-maximo.png) |
+| **BUG-API-007** | TC-API-011 | `fullName` contendo somente números aceito pela API | [`BUG-007_TC-API-011_fullName-somente-numerico.png`](../evidencias/BUG-007_TC-API-011_fullName-somente-numerico.png) |
 
 ### 🔎 Observação sobre o BUG-006
 
