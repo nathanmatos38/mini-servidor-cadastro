@@ -6,6 +6,31 @@ O projeto foi utilizado como ambiente prático para aplicar conceitos de **teste
 
 > 🎯 **Objetivo principal:** analisar o comportamento da API `/register`, identificar inconsistências entre as regras esperadas e o comportamento real do sistema e documentar todo o processo de testes.
 
+## 🤖 Automação de Massa de Testes
+
+Após a conclusão dos testes manuais e da regressão da API, o projeto passou por uma etapa inicial de **automação no Postman**, com o objetivo de gerar massas de dados dinamicamente para as requisições.
+
+A automação foi desenvolvida para gerar diferentes combinações de dados, incluindo:
+
+- 👤 Nomes válidos e inválidos;
+- 🔢 Nomes contendo valores numéricos;
+- 📧 E-mails gerados dinamicamente;
+- 🔐 Senhas válidas e inválidas;
+- 🔁 `confirmPassword` baseado na senha gerada;
+- 👥 `accessProfile` com os valores permitidos pela API.
+
+A geração dos dados utiliza JavaScript e seleção aleatória das massas de teste, permitindo variar os dados enviados a cada execução sem a necessidade de alterar manualmente o Body da requisição.
+
+> ⚠️ Esta etapa não substitui os casos de teste documentados. O objetivo é complementar a estratégia de testes com geração dinâmica de dados e ampliar a variação das entradas utilizadas durante a execução.
+
+### 🎓 Primeiro contato com automação
+
+Esta etapa representa meu **primeiro contato prático com automação de testes em um projeto real**, utilizando JavaScript dentro do Postman.
+
+O desenvolvimento foi realizado de forma incremental, com **auxílio de Inteligência Artificial como ferramenta de apoio ao aprendizado e resolução de problemas**, mantendo a compreensão e validação de cada etapa do processo.
+
+A automação encontra-se em sua **versão inicial** e poderá ser evoluída posteriormente com novas estratégias de geração de dados, cenários automatizados e integração com outras ferramentas de automação.
+
 ---
 
 ## 🧪 Sobre o Projeto
